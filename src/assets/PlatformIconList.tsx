@@ -1,10 +1,11 @@
 import {
-  IconType,
   FaWindows,
   FaPlaystation,
   FaXbox,
   FaLinux,
+  FaAndroid,
 } from "react-icons/fa";
+import { IconType } from "react-icons";
 import { MdPhoneIphone } from "react-icons/md";
 import { SiNintendo } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
@@ -24,6 +25,7 @@ const PlatformIconList = ({ platforms }: Props) => {
     nintendo: SiNintendo,
     mac: FaLinux,
     linux: FaLinux,
+    android: FaAndroid,
     ios: MdPhoneIphone,
     web: BsGlobe,
   };
